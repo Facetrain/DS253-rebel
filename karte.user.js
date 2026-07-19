@@ -5,6 +5,8 @@
 // @author       Shinko to Kuma, suilenroc
 // @match        https://de253.die-staemme.de/game.php?*village=*screen=map*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/Facetrain/DS253-rebel/main/karte.user.js
+// @updateURL    https://raw.githubusercontent.com/Facetrain/DS253-rebel/main/karte.user.js
 // ==/UserScript==
 
 
