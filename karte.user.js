@@ -10,11 +10,9 @@
 // ==/UserScript==
 
 
-$.getScript("https://shinko-to-kuma.com/scripts/mapSdk.js").done(function() {MapSdk.lines.push({x1: 499,y1: 485,x2: 742,y2: 515,styling:{main: {"strokeStyle": "#FF0000","lineWidth": 2},mini: {"strokeStyle": "#FF0000","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-
-
-MapSdk.lines.push({x1: 499,y1: 485,x2: 742,y2: 515,styling:{main: {"strokeStyle": "#FF0000","lineWidth": 2},mini: {"strokeStyle": "#FF0000","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 581,y1: 636,x2: 594,y2: 640,styling:{main: {"strokeStyle": "#FFFF00","lineWidth": 2},mini: {"strokeStyle": "#FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+$.getScript("https://shinko-to-kuma.com/scripts/mapSdk.js").done(function() {
+    
+.lines.push({x1: 581,y1: 636,x2: 594,y2: 640,styling:{main: {"strokeStyle": "#FFFF00","lineWidth": 2},mini: {"strokeStyle": "#FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 594,y1: 640,x2: 604,y2: 640,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 499,y1: 651,x2: 560,y2: 651,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 560,y1: 651,x2: 581,y2: 636,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
@@ -52,11 +50,6 @@ MapSdk.lines.push({x1: 590,y1: 639,x2: 590,y2: 665,styling:{main: {"strokeStyle"
 MapSdk.lines.push({x1: 670,y1: 647,x2: 664,y2: 638,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 670,y1: 647,x2: 696,y2: 614,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 664,y1: 638,x2: 689,y2: 610,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 644,y1: 669,x2: 640,y2: 659,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 650,y1: 664,x2: 646,y2: 655,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 664,y1: 638,x2: 646,y2: 655,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 640,y1: 659,x2: 613,y2: 677,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 631,y1: 665,x2: 627,y2: 656,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 627,y1: 656,x2: 646,y2: 643,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 646,y1: 643,x2: 660,y2: 629,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 660,y1: 629,x2: 680,y2: 608,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
@@ -64,14 +57,9 @@ MapSdk.lines.push({x1: 662,y1: 640,x2: 657,y2: 632,styling:{main: {"strokeStyle"
 MapSdk.lines.push({x1: 680,y1: 608,x2: 685,y2: 614,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 627,y1: 656,x2: 608,y2: 668,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 618,y1: 685,x2: 625,y2: 681,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 625,y1: 681,x2: 637,y2: 679,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 637,y1: 679,x2: 650,y2: 670,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 664,y1: 658,x2: 670,y2: 647,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 650,y1: 670,x2: 664,y2: 658,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 545,y1: 594,x2: 534,y2: 600,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 545,y1: 594,x2: 553,y2: 600,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 545,y1: 553,x2: 545,y2: 594,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
-MapSdk.lines.push({x1: 644,y1: 669,x2: 650,y2: 664,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 499,y1: 564,x2: 532,y2: 522,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 532,y1: 522,x2: 576,y2: 494,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 519,y1: 553,x2: 542,y2: 523,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
@@ -98,6 +86,24 @@ MapSdk.lines.push({x1: 655,y1: 554,x2: 670,y2: 532,styling:{main: {"strokeStyle"
 MapSdk.lines.push({x1: 670,y1: 532,x2: 705,y2: 511,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 665,y1: 553,x2: 679,y2: 533,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 679,y1: 533,x2: 714,y2: 511,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 576,y1: 494,x2: 626,y2: 462,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 584,y1: 496,x2: 635,y2: 463,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 592,y1: 497,x2: 645,y2: 463,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 605,y1: 498,x2: 657,y2: 463,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 619,y1: 500,x2: 671,y2: 464,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 629,y1: 501,x2: 682,y2: 464,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 641,y1: 503,x2: 695,y2: 465,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 656,y1: 505,x2: 711,y2: 464,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 671,y1: 506,x2: 724,y2: 465,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 685,y1: 508,x2: 733,y2: 469,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 695,y1: 510,x2: 745,y2: 470,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 705,y1: 511,x2: 749,y2: 478,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 714,y1: 511,x2: 753,y2: 487,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 613,y1: 677,x2: 644,y2: 657,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 644,y1: 657,x2: 664,y2: 638,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 625,y1: 681,x2: 636,y2: 676,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 636,y1: 676,x2: 660,y2: 657,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 660,y1: 657,x2: 670,y2: 647,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 
 
     MapSdk.texts.push({text:"Cucumber",x:516,y:550,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
@@ -114,10 +120,8 @@ MapSdk.lines.push({x1: 679,y1: 533,x2: 714,y2: 511,styling:{main: {"strokeStyle"
     MapSdk.texts.push({text:"Punisher",x:641,y:550,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
     MapSdk.texts.push({text:"Badboy",x:652,y:550,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
 
-    MapSdk.texts.push({text:"RedKiwi",x:631,y:671,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
-    MapSdk.texts.push({text:"RedKiwi",x:659,y:651,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
-    MapSdk.texts.push({text:"Fabi",x:648,y:648,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
-    MapSdk.texts.push({text:"Clownfiesta",x:621,y:666,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
+    MapSdk.texts.push({text:"RedKiwi",x:648,y:660,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
+    MapSdk.texts.push({text:"Clownfiesta",x:643,y:651,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
     MapSdk.texts.push({text:"Blutraben",x:670,y:624,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
     MapSdk.texts.push({text:"DrHooxen",x:680,y:629,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
     MapSdk.texts.push({text:"The Punisher",x:600,y:664,font:"38px Arial",miniFont: "9px Arial",color: "yellow",drawOnMap: true,drawOnMini: true,});
