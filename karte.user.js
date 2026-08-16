@@ -12,7 +12,7 @@
 
 $.getScript("https://shinko-to-kuma.com/scripts/mapSdk.js").done(function() {
     
-.lines.push({x1: 581,y1: 636,x2: 594,y2: 640,styling:{main: {"strokeStyle": "#FFFF00","lineWidth": 2},mini: {"strokeStyle": "#FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
+MapSdk.lines.push({x1: 581,y1: 636,x2: 594,y2: 640,styling:{main: {"strokeStyle": "#FFFF00","lineWidth": 2},mini: {"strokeStyle": "#FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 594,y1: 640,x2: 604,y2: 640,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 499,y1: 651,x2: 560,y2: 651,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
 MapSdk.lines.push({x1: 560,y1: 651,x2: 581,y2: 636,styling:{main: {"strokeStyle": "##FFFF00","lineWidth": 2},mini: {"strokeStyle": "##FFFF00","lineWidth": 2}},drawOnMini: true,drawOnMap: true,});
