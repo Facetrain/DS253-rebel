@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Rebel253
-// @version      1.0
+// @version      2.0
 // @description  draw on map
 // @author       Shinko to Kuma, suilenroc
 // @match        https://de253.die-staemme.de/game.php?*village=*screen=map*
